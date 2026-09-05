@@ -1,0 +1,12 @@
+[package]
+name = "tpx-dedup"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+tpx-core.workspace = true
+dashmap.workspace = true
+xxhash-rust.workspace = true
+thiserror.workspace = true

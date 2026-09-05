@@ -1,0 +1,55 @@
+[workspace]
+members = [
+    "crates/tpx-core",
+    "crates/tpx-filter",
+    "crates/tpx-codec",
+    "crates/tpx-index",
+    "crates/tpx-io",
+    "crates/tpx-dedup",
+    "crates/tpx-version",
+    "crates/tpx-shard",
+    "crates/tpx-accel",
+    "crates/tpx-gpu",
+    "crates/tpx-engine",
+    "crates/tpx-cli",
+    "crates/tpx-py",
+    "benchmarks",
+]
+resolver = "2"
+
+[workspace.package]
+version = "1.0.0"
+edition = "2021"
+authors = ["xTanTHaix <xtanthaix@gmail.com>"]
+license = "BSL-1.1"
+repository = "https://github.com/xTanTHaix/Orthos-iDart-TPX"
+
+[workspace.dependencies]
+thiserror = "2.0"
+bytemuck = { version = "1.21", features = ["derive"] }
+byteorder = "1.5"
+memmap2 = "0.9"
+tempfile = "3.17"
+zstd = "0.13"
+lz4_flex = "0.11"
+dashmap = "6.1"
+parking_lot = "0.12"
+crossbeam-channel = "0.5"
+xxhash-rust = { version = "0.8", features = ["xxh64", "xxh3"] }
+crc32fast = "1.4"
+fs2 = "0.4"
+clap = { version = "4.5", features = ["derive"] }
+rand = "0.8"
+pyo3 = { version = "0.23", features = ["extension-module"] }
+
+tpx-core = { path = "crates/tpx-core" }
+tpx-filter = { path = "crates/tpx-filter" }
+tpx-codec = { path = "crates/tpx-codec" }
+tpx-index = { path = "crates/tpx-index" }
+tpx-io = { path = "crates/tpx-io" }
+tpx-dedup = { path = "crates/tpx-dedup" }
+tpx-version = { path = "crates/tpx-version" }
+tpx-shard = { path = "crates/tpx-shard" }
+tpx-accel = { path = "crates/tpx-accel" }
+tpx-gpu = { path = "crates/tpx-gpu" }
+tpx-engine = { path = "crates/tpx-engine" }

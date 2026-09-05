@@ -1,0 +1,13 @@
+[package]
+name = "tpx-io"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+tpx-core.workspace = true
+memmap2.workspace = true
+fs2.workspace = true
+parking_lot.workspace = true
+thiserror.workspace = true

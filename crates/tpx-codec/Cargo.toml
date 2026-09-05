@@ -1,0 +1,15 @@
+[package]
+name = "tpx-codec"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+tpx-core.workspace = true
+tpx-filter.workspace = true
+zstd.workspace = true
+lz4_flex.workspace = true
+xxhash-rust.workspace = true
+thiserror.workspace = true
+byteorder.workspace = true

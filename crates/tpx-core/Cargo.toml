@@ -1,0 +1,13 @@
+[package]
+name = "tpx-core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+thiserror.workspace = true
+bytemuck.workspace = true
+byteorder.workspace = true
+xxhash-rust.workspace = true
+crc32fast.workspace = true

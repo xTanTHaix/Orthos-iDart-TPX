@@ -1,0 +1,20 @@
+[package]
+name = "tpx-shard"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+tpx-core.workspace = true
+tpx-filter.workspace = true
+tpx-codec.workspace = true
+tpx-index.workspace = true
+tpx-io.workspace = true
+tpx-dedup.workspace = true
+tpx-version.workspace = true
+crossbeam-channel.workspace = true
+parking_lot.workspace = true
+xxhash-rust.workspace = true
+crc32fast.workspace = true
+thiserror.workspace = true

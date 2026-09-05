@@ -1,0 +1,17 @@
+[package]
+name = "tpx-cli"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "tpx"
+path = "src/main.rs"
+
+[dependencies]
+tpx-core.workspace = true
+tpx-engine.workspace = true
+tpx-shard.workspace = true
+clap.workspace = true
+thiserror.workspace = true

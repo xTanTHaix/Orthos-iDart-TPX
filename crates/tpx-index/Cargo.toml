@@ -1,0 +1,13 @@
+[package]
+name = "tpx-index"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+tpx-core.workspace = true
+parking_lot.workspace = true
+xxhash-rust.workspace = true
+byteorder.workspace = true
+thiserror.workspace = true

@@ -1,0 +1,190 @@
+==========================================================================
+TPX Storage Engine
+Copyright © 2026 xTanTHaix
+==========================================================================
+
+This work is licensed under the Business Source License 1.1 (BSL 1.1),
+with the Additional Use Grant, Change Date, and Change License specified
+below. The full text of BSL 1.1 is included in Part A. The TPX-specific
+terms are in Part B.
+
+
+------------------------------------------------------------------------
+PART A: Business Source License 1.1 (Full Text)
+------------------------------------------------------------------------
+
+Terms
+
+The Licensor hereby grants you the right to copy, modify, create
+derivative works, redistribute, and non-commercially use the Licensed
+Work, in whole or in part, as long as the following conditions are met:
+
+  1. You must retain this License and all copyright notices.
+  2. You may not use the Licensed Work for any Production Use that is
+     not expressly permitted by the Additional Use Grant in Part B.
+  3. You must prominently display a copy of this License and the
+     Additional Use Grant on all copies or substantial portions of the
+     Licensed Work.
+  4. You may not move, change, disable, or remove the Change Date,
+     Change License, or Additional Use Grant.
+  5. If you create a derivative work, the derivative work must be
+     licensed under the same terms (BSL 1.1 with the same or
+     equivalent Additional Use Grant, Change Date, and Change License).
+
+"Licensed Work" means the TPX Storage Engine source code, including
+all files, modules, and associated documentation made available by the
+Licensor under this License.
+
+"Non-Commercial Use" means any use of the Licensed Work that is not a
+Production Use, including without limitation: development, testing,
+quality assurance, benchmarking, internal research, personal learning,
+academic research, and hobbyist projects.
+
+"Production Use" means using the Licensed Work in a live system,
+product, or service that is made available to end users or generates
+revenue, directly or indirectly, including but not limited to:
+embedding in a commercial application, offering as part of a SaaS
+product, distributing in a paid product, or using in an internal system
+that supports business operations.
+
+
+------------------------------------------------------------------------
+PART B: TPX-Specific Terms
+------------------------------------------------------------------------
+
+=== Additional Use Grant ===
+
+You may use the Licensed Work for Production Use at no cost if ANY of
+the following conditions apply:
+
+  1. PERSONAL USE
+     You are an individual using the Licensed Work for your own
+     personal projects, hobby projects, or learning purposes, and you
+     are not generating revenue from the product or service that
+     incorporates the Licensed Work.
+
+  2. NON-COMMERCIAL / RESEARCH USE
+     You are using the Licensed Work for academic research, scientific
+     research, education, or non-profit purposes, and the product or
+     service incorporating the Licensed Work is not sold or licensed
+     for a fee.
+
+  3. SMALL COMMERCIAL USE
+     You are an individual developer, a team of fewer than 5 people,
+     or an organization with annual gross revenue less than
+     USD 50,000, and you embed the Licensed Work in a product or
+     service that is sold or offered to third parties.
+
+You may also freely modify, fork, and create derivative works of the
+Licensed Work under this License for any of the above permitted uses.
+
+If you do not meet ANY of the above conditions, you must obtain a
+Commercial License as described below.
+
+
+=== Commercial License — Tiered Pricing via Ko-fi Shop ===
+
+For Production Use that does not qualify for the Additional Use Grant
+above, a Commercial License is available as a one-time purchase
+through the Licensor's Ko-fi Shop, with two tiers:
+
+  ---------------------------------------------------------------------
+  TIER 1: INDIVIDUAL
+  ---------------------------------------------------------------------
+    Price:        USD 6.20 (one-time)
+    Eligible for: Individual developers and freelancers who do NOT
+                  meet the Small Commercial Use threshold (i.e.,
+                  revenue ≥ USD 50,000/year as a solo developer).
+    Coverage:     All TPX versions 1.0.0 – 1.x.x
+    Expiry:       None — lifetime of the 1.x line
+    Transfer:     Per-individual, non-transferable
+    Purchase URL: https://ko-fi.com/s/85b87a3944 (Individual listing)
+
+  ---------------------------------------------------------------------
+  TIER 2: ORGANIZATION
+  ---------------------------------------------------------------------
+    Price:        USD 49.00 (one-time)
+    Eligible for: Teams of 5 or more people, or organizations with
+                  annual gross revenue of USD 50,000 or more.
+    Coverage:     All TPX versions 1.0.0 – 1.x.x
+    Expiry:       None — lifetime of the 1.x line
+    Transfer:     Per-organization, non-transferable
+    Purchase URL: https://ko-fi.com/s/85b87a3944 (Organization listing)
+
+  ---------------------------------------------------------------------
+
+Upon completing the Ko-fi Shop purchase for the appropriate tier, you
+receive:
+
+  - Lifetime right to use TPX Storage Engine (versions 1.0.0 – 1.x.x)
+    in commercial production environments.
+  - Right to embed TPX in commercial products sold or licensed to
+    third parties.
+  - Right to offer TPX as part of a hosted or managed service.
+  - Right to modify and use modified versions commercially.
+  - No obligation to publish or open-source your application code.
+
+This Commercial License does NOT cover:
+
+  - TPX Storage Engine version 2.0.0 or later (separate license
+    required when available).
+  - Official support, SLA, warranty, or maintenance guarantees.
+  - Indemnification or liability of any kind.
+
+
+=== Change Date ===
+
+  Change Date: January 1, 2030
+
+  On or after the Change Date, the Licensed Work (version 1.x.x) will
+  automatically convert to the Change License specified below, and you
+  may use it freely without purchasing a Commercial License.
+
+
+=== Change License ===
+
+  Change License: Apache License, Version 2.0
+
+  After the Change Date, the Licensed Work will be licensed under the
+  Apache License, Version 2.0, which is an OSI-approved open source
+  license. This means any person or organization may use, modify, and
+  distribute the Licensed Work for any purpose, including commercial,
+  without restriction.
+
+
+------------------------------------------------------------------------
+PART C: Important Notes
+------------------------------------------------------------------------
+
+1. VERSION SCOPE
+   This License covers TPX Storage Engine versions 1.0.0 through the
+   highest 1.x.x release. Any major version 2.0.0 or higher will be
+   released under a separate license at the Licensor's discretion.
+
+2. DERIVATIVE WORKS
+   Derivative works of the 1.x line remain under this BSL 1.1 License
+   with the same Additional Use Grant, Change Date, and Change License.
+   The Commercial License purchase covers use of derivative works based
+   on the 1.x line, under the same tier rules.
+
+3. ATTRIBUTION
+   All copies or substantial portions of the Licensed Work must retain
+   the copyright notice: "Copyright © 2026 xTanTHaix" and a reference
+   to this License.
+
+4. NO WARRANTY
+   THE LICENSED WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+   KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+   WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+   AND NONINFRINGEMENT. IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR
+   ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+   CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION
+   WITH THE LICENSED WORK OR THE USE OR OTHER DEALINGS IN THE LICENSED
+   WORK.
+
+5. KO-FI SHOP PROOF
+   Your Ko-fi Shop purchase receipt serves as proof of Commercial
+   License. Keep your receipt. No license key or activation is required
+   in the software itself.
+
+==========================================================================

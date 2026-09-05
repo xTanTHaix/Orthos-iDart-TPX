@@ -1,0 +1,11 @@
+[package]
+name = "tpx-filter"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+tpx-core.workspace = true
+bytemuck.workspace = true
+thiserror.workspace = true

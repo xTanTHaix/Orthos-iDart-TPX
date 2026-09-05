@@ -1,0 +1,27 @@
+[package]
+name = "tpx-engine"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+tpx-core.workspace = true
+tpx-filter.workspace = true
+tpx-codec.workspace = true
+tpx-index.workspace = true
+tpx-io.workspace = true
+tpx-dedup.workspace = true
+tpx-version.workspace = true
+tpx-shard.workspace = true
+tpx-accel.workspace = true
+tpx-gpu.workspace = true
+parking_lot.workspace = true
+xxhash-rust.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true
+bytemuck.workspace = true
+rand.workspace = true
+crc32fast.workspace = true

@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-09-06T00:09:09.647013200+07:00",
+  "engine": "TPX (TensorPack X)",
+  "version": "1.0.0",
+  "environment": {
+    "host_architecture": "x86_64 (windows)",
+    "os": "Microsoft Windows 11 Pro",
+    "logical_cores": 8,
+    "target_storage_medium": "Physical SATA SSD (EXRAM 512GB, Drive L:)",
+    "target_mount_path": "L:\\Orthos-iDart-TPX (TensorPack X)\\target\\bench_scratch",
+    "direct_io_page_align": 4096,
+    "synthetic_weight_generator": "Box-Muller Transform Gaussian Normal N(0, 0.02^2)",
+    "protocol": "1 Warmup Run + 3 Measured Runs (Median, Mean, Standard Deviation reported)"
+  },
+  "benchmarks": {
+    "sequential_write": {
+      "hdf5_blosc_mb_s": 152.49446170613976,
+      "payload_tensors": 2000,
+      "raw_binary_mb_s": 240.25981889022646,
+      "safetensors_mb_s": 273.5619450385602,
+      "total_volume_mb": 125.0,
+      "tpx_batch_mb_s": 241.519058268888,
+      "tpx_sequential_mb_s": 230.36688968024524
+    },
+    "multicore_scaling": [
+      {
+        "median_mb_s": 109.75314761052032,
+        "ops_per_sec": 1756.050361768325,
+        "scaling_factor": 1.0,
+        "threads": 1
+      },
+      {
+        "median_mb_s": 108.33266239304425,
+        "ops_per_sec": 1733.322598288708,
+        "scaling_factor": 0.9870574534908381,
+        "threads": 2
+      },
+      {
+        "median_mb_s": 148.63199704448246,
+        "ops_per_sec": 2378.1119527117194,
+        "scaling_factor": 1.3542390380632277,
+        "threads": 4
+      },
+      {
+        "median_mb_s": 198.49152790520932,
+        "ops_per_sec": 3175.864446483349,
+        "scaling_factor": 1.8085269737282965,
+        "threads": 8
+      }
+    ],
+    "point_lookup_latency": {
+      "hdf5_blosc_p50_us": 31.9,
+      "hdf5_blosc_p99_9_us": 100.5,
+      "hdf5_blosc_p99_us": 64.2,
+      "num_lookups": 5000,
+      "num_tensors": 4000,
+      "safetensors_p50_us": 0.1,
+      "safetensors_p99_9_us": 0.6,
+      "safetensors_p99_us": 0.5,
+      "tpx_cold_p50_us": 17.3,
+      "tpx_cold_p99_9_us": 62.4,
+      "tpx_cold_p99_us": 43.7,
+      "tpx_warm_p50_us": 17.2,
+      "tpx_warm_p99_9_us": 76.0,
+      "tpx_warm_p99_us": 46.2
+    },
+    "neural_codecs": null,
+    "dedup_checkpoints": {
+      "hdf5_blosc_mb": 17.9053316116333,
+      "safetensors_mb": 18.774572372436523,
+      "savings_vs_hdf5_pct": 47.859454923837696,
+      "savings_vs_safetensors_pct": 50.27350122921387,
+      "tpx_fastcdc_mb": 9.3359375,
+      "uncompressed_mb": 18.75
+    },
+    "art_prefix_traversal": {
+      "matches_count": 500,
+      "median_latency_ms": 2.9103000000000003,
+      "total_keys": 50000,
+      "traversal_keys_per_sec": 171803.59413118922
+    },
+    "swmr_concurrency": {
+      "appended_tensors": 500,
+      "average_reader_latency_us": 146.4070642733063,
+      "reader_queries_per_sec": 27073.378732583365,
+      "reader_threads": 4,
+      "writer_iops": 3919.134153529729,
+      "writer_throughput_mb_s": 122.47294229780402
+    }
+  }
+}

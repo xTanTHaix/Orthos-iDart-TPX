@@ -1,0 +1,23 @@
+# ==============================================================================
+# TPX (TensorPack X) — Python Dependencies & Environment Requirements
+# ==============================================================================
+
+# Core Runtime Dependencies
+# -------------------------
+numpy>=1.26.4          # Required for ndarray buffer protocol & tensor serialization
+
+# Build & FFI Extension Toolchain
+# -------------------------------
+maturin>=1.7.4         # Build backend for compiling PyO3 native Rust C-Extension
+
+# Testing & Verification Framework
+# --------------------------------
+pytest>=9.0.3          # Test runner for Python unit & integration tests
+safetensors>=0.4.5     # HuggingFace SafeTensors format interop and conversion
+hypothesis>=6.120.0    # Property-based fuzz testing and property verification
+
+# Optional Framework Integrations (Installed on demand)
+# -----------------------------------------------------
+# torch>=2.6.0         # PyTorch DataLoader, zero-copy Tensor conversion & training
+# h5py>=3.12.0         # HDF5 baseline comparison
+# hdf5plugin>=4.4.0    # Blosc filter plugin for h5py baseline comparison

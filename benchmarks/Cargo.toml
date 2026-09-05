@@ -1,0 +1,25 @@
+[package]
+name = "tpx-benchmarks"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+tpx-core.workspace = true
+tpx-codec.workspace = true
+tpx-filter.workspace = true
+tpx-index.workspace = true
+tpx-dedup.workspace = true
+tpx-shard.workspace = true
+tpx-engine.workspace = true
+bytemuck.workspace = true
+tempfile.workspace = true
+rand.workspace = true
+parking_lot.workspace = true
+lz4_flex.workspace = true
+memmap2.workspace = true
+safetensors = "0.5"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", default-features = false, features = ["clock", "std"] }
