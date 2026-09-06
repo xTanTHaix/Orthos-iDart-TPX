@@ -238,8 +238,7 @@ Every `.tpx` file is strictly 4096-byte aligned (expandable to 2 MB for HugePage
 | TOC Offset (u64) | TOC Length (u64) | Flags (u32) | Magic: "1XPT" / "1XPC"|
 +-------------------------------------------------------------------------- +
 ```
-
-<details>
+</details>
 
 <details style="margin-left: 16px; margin-top: 6px;">
 <summary>⚙️ <em>Header & Data Chunk Primitives (48-Byte Header / 16-Byte Chunk)</em></summary>
