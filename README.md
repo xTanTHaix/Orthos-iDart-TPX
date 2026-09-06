@@ -218,7 +218,7 @@ TPX employs a two-tier hybrid architecture combining bare-metal systems performa
 
 <details>
 <summary>📦 <b>Binary Wire Format Specification (4096-Byte Physical Alignment)</b></summary>
-<p style="margin: 8px 0; font-size: 0.9rem;">โครงสร้างทางกายภาพระดับไบนารีและ Alignment 4KB/2MB:</p>
+<p style="margin: 8px 0; font-size: 0.9rem;">Binary level physical structure and Alignment 4KB/2MB:</p>
 
 Every `.tpx` file is strictly 4096-byte aligned (expandable to 2 MB for HugePages) and consists of three physical zones:
 
@@ -238,6 +238,8 @@ Every `.tpx` file is strictly 4096-byte aligned (expandable to 2 MB for HugePage
 | TOC Offset (u64) | TOC Length (u64) | Flags (u32) | Magic: "1XPT" / "1XPC"|
 +-------------------------------------------------------------------------- +
 ```
+
+<details>
 
 <details style="margin-left: 16px; margin-top: 6px;">
 <summary>⚙️ <em>Header & Data Chunk Primitives (48-Byte Header / 16-Byte Chunk)</em></summary>
