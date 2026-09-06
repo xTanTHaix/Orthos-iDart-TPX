@@ -428,9 +428,10 @@ print(f"Optimal GPU prefetch queue depth: {optimal_depth}")
 ```
 
 </details>
+  
+### 2. ®️Rust Usage
 
 <details>
-### 2. Rust Usage
 
 Add `tpx-engine` to your `Cargo.toml`:
 
