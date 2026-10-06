@@ -21,7 +21,7 @@ resolver = "2"
 version = "1.0.0"
 edition = "2021"
 authors = ["xTanTHaix <xtanthaix@gmail.com>"]
-license = "BSL-1.1"
+license = "Apache-2.0"
 repository = "https://github.com/xTanTHaix/Orthos-iDart-TPX"
 
 [workspace.dependencies]
