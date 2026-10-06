@@ -22,8 +22,7 @@
 [![Rust Quality](https://img.shields.io/github/actions/workflow/status/xTanTHaix/Orthos-iDart-TPX/rust-quality.yml?branch=main&style=for-the-badge&logo=rust&logoColor=white&label=Rust%20Quality)](https://github.com/xTanTHaix/Orthos-iDart-TPX/actions/workflows/rust-quality.yml)
 [![Tests Passing](https://img.shields.io/badge/tests-46%20passed-059669?style=for-the-badge&logo=pytest&logoColor=white)](#-verification--testing)
 [![Ko-fi Support](https://img.shields.io/badge/Support-Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/xtanthaix)
-[![Ko-fi Shop](https://img.shields.io/badge/Commercial%20License-Ko--fi%20Shop-29ABE2?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/s/85b87a3944)
-[![License](https://img.shields.io/badge/license-BSL--1.1-F59E0B?style=for-the-badge&logo=googledocs&logoColor=white)](LICENSE)
+[![License](https://img.shields.io/badge/license-Apache--2.0-059669?style=for-the-badge&logo=apache&logoColor=white)](LICENSE)
 
 <br>
 
@@ -719,29 +718,19 @@ python -m pytest -v -s tests/test_street_heavy_matrix.py
 ---
 ---
 
-| 📊 Empirical Benchmark Matrix | 💼 Commercial Licensing Structure (BSL 1.1) |
+| 📊 Empirical Benchmark Matrix | 💼 Permissive Apache-2.0 License Architecture |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/f940a2db-1d8d-4abc-9018-b5e16b868ed1" alt="Empirical Benchmark Matrix" width="100%"> | <img src="https://github.com/user-attachments/assets/6005dfb7-107f-47d9-9e54-807da9114330" alt="Commercial Licensing Structure (BSL 1.1)" width="100%"> |
-| *Empirical measurements on physical SATA SSD: 2.67x faster write, 407x lower latency, and 50.3% storage saved.* | *Free for research, personal, and small teams (< $50K); perpetual lifetime commercial licenses available on Ko-fi.* |
+| <img src="https://github.com/user-attachments/assets/f940a2db-1d8d-4abc-9018-b5e16b868ed1" alt="Empirical Benchmark Matrix" width="100%"> | <img src="https://github.com/user-attachments/assets/6005dfb7-107f-47d9-9e54-807da9114330" alt="Permissive Apache-2.0 License Architecture" width="100%"> |
+| *Empirical measurements on physical SATA SSD: 2.67x faster write, 407x lower latency, and 50.3% storage saved.* | *Free and open-source under Apache License 2.0 for personal, research, and enterprise production environments.* |
 
 ---
 
-## ☕ Support & Commercial Licensing
+## 📜 License & Community Support
 
-TPX is released under the **Business Source License 1.1 (BSL 1.1)** with an automatic transition to **Apache License 2.0** on **January 1, 2030**:
+TPX is released under the **Apache License, Version 2.0 (Apache-2.0)**.
 
-### 🌱 Free Tier (Additional Use Grant)
-- **Personal & Hobby:** 100% Free for individual personal projects and learning.
-- **Academic & Research:** 100% Free for academic, scientific, and non-profit research.
-- **Small Commercial:** Free for solo developers, teams under 5 people, or organizations with annual gross revenue **< $50,000 USD**.
-
-### 💼 Commercial Tier (Revenue ≥ $50,000 USD or Teams ≥ 5)
-For commercial applications exceeding the free tier, perpetual lifetime commercial licenses for the v1.x line are available via the Ko-fi Shop:
-
-| Tier | Price | Coverage | Ko-fi Shop Link |
-| :--- | :---: | :--- | :---: |
-| **Individual Tier** | **$6.20** *(one-time)* | Solo developers & freelancers (Revenue $\ge \$50\text{K}$) | [🛒 Buy on Ko-fi](https://ko-fi.com/s/85b87a3944) |
-| **Organization Tier** | **$49.00** *(one-time)* | Teams $\ge 5$ people or enterprise orgs | [🛒 Buy on Ko-fi](https://ko-fi.com/s/85b87a3944) |
+- **100% Free & Permissive:** Unrestricted rights to use, modify, distribute, and integrate TPX into commercial products, cloud platforms, proprietary pipelines, and research frameworks.
+- **Enterprise & Community Sponsorship:** If TPX accelerates your deep learning infrastructure, consider sponsoring ongoing R&D via Ko-fi.
 
 <div align="center">
 
